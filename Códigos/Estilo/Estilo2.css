@@ -1,0 +1,89 @@
+/* RESET */
+*{
+  margin: 0;
+  padding: 0;
+  font-size:100%;
+  font-family: 'Oswald', sans-serif;
+  font-weight: normal;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+img{
+  max-width: 100%;
+}
+ul{
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+h2{
+  font-size: 1.5em;
+  color: rgb(0, 0, 0);
+}
+p{
+  font-size: 1em;
+  color: rgb(0, 0, 0);
+}
+
+
+/* CABEÇALHO */
+#Titulo {
+    text-align: center;
+    border: solid;
+    border-radius: 6px;
+    border-color: black;
+    font-family: 'Oswald', sans-serif;
+    font-style: italic    
+}
+
+.cabecalho{
+  width: 100%;
+  float: left;
+  padding: 50px 8%;
+  background-color: #13c7ae;
+  background-image: linear-gradient(to top, rgb(0, 172, 23), rgb(0, 187, 201));
+}
+
+.cabecalho01{
+  margin-bottom: 10px;
+}
+
+.cabecalho01 img{
+  margin-left: center;
+  display: block;
+  margin: auto;
+  margin-top: 12px;
+}
+
+.bandeiras {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.bandeiras img{
+  margin-left: center;
+  display: block;
+  margin: auto;
+}
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: purple;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
