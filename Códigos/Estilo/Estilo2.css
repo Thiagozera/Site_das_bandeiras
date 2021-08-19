@@ -87,3 +87,16 @@ a:link {
     background-color: transparent;
     text-decoration: underline;
   }
+
+/* RESPONSIVIDADE */
+* {
+  box-sizing: border-box;
+}
+.menu {
+  width: 25%;
+  float: left;
+}
+.main {
+  width: 75%;
+  float: left;
+}
